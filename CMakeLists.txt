@@ -7,4 +7,4 @@ project(test)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(test main.cpp src/tinyxml2.h src/tinyxml2.cpp)
+add_executable(test main.cpp lib/tinyxml2.h lib/tinyxml2.cpp)

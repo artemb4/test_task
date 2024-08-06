@@ -1,5 +1,5 @@
 #include <iostream>
-#include "src/tinyxml2.h"
+#include "lib/tinyxml2.h"
 
 namespace xml_parser {
 
