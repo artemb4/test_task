@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Traffics xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <cmds_list>
+        <TContextCMD Name="BA" Type="B" Package="DENSE" StorageLen="0" Data="31323334424131323334353637383930313246333234333835343438373033">
+            <LastPos>31</LastPos>
+            <NeedAnswerForce>false</NeedAnswerForce>
+            <Args>
+                <TCont Name="MsgHdr" Type="A" Package="DENSE" StorageLen="4" Data="31323334">
+                    <Tag xsi:type="TArg" arg="mA" />
+                </TCont>
+                <TCont Name="Cmd" Type="A" Package="DENSE" StorageLen="2" Data="4241">
+                    <Tag xsi:type="TArg" arg="CmdCode" />
+                </TCont>
+                <TCont Name="PIN" Type="H" Package="DENSE" StorageLen="13" Data="0123456789012F">
+                    <Tag xsi:type="TArg" arg="H" />
+                </TCont>
+                <TCont Name="PAN" Type="N" Package="DENSE" StorageLen="12" Data="324385448703">
+                    <Tag xsi:type="TArg" arg="N" />
+                </TCont>
+            </Args>
+            <Annotation />
+        </TContextCMD>
+        <TContextCMD Name="BB" Type="B" Package="DENSE" StorageLen="0" Data="313233344242303038363333313732353331323434">
+            <LastPos>21</LastPos>
+            <NeedAnswerForce>false</NeedAnswerForce>
+            <Args>
+                <TCont Name="MsgHdr" Type="A" Package="DENSE" StorageLen="4" Data="31323334">
+                    <Tag xsi:type="TArg" arg="mA" />
+                </TCont>
+                <TCont Name="A1" Type="A" Package="DENSE" StorageLen="2" Data="4242">
+                    <Tag xsi:type="TArg" arg="CmdCode" />
+                </TCont>
+                <TCont Name="ErrCode" Type="A" Package="DENSE" StorageLen="2" Data="3030">
+                    <Tag xsi:type="TArg" arg="ErrCode" />
+                </TCont>
+                <TCont Name="PIN_ENCR" Type="N" Package="DENSE" StorageLen="13" Data="08633172531244">
+                    <Tag xsi:type="TArg" arg="N" />
+                </TCont>
+            </Args>
+        </TContextCMD>
+    </cmds_list>
+</Traffics>
